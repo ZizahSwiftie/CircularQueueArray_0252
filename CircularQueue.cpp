@@ -110,7 +110,7 @@ else
         FRONT_position++;
        }
         cout << endl;
-      }
+       }
     }
 };
 
@@ -151,11 +151,11 @@ int main()
         }
         case '4':
         {
-            return 0:
+            return 0;
         }
         default:
         {
-            cout << "Invalid option!!"; << endl;
+            cout << "Invalid option!!" << endl;
             break;
         }
         }
@@ -164,4 +164,4 @@ int main()
     {
         cout << "Chech for the values entered." << endl;
     }     
-}
+};
