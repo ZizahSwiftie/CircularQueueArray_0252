@@ -20,3 +20,17 @@ public:
         cin >> num;
         cout << endl;
 
+    // 1. cek apakah antrian penuh
+        if ((FRONT == 0 && FEAR == max - 1) || (FEAR == (FRONT - 1) % (max - 1))) {
+            cout << "\nQueue overflow\n"; //1.a
+            return; // 1.b
+        }
+
+    // 2. Cek apakah antrian kosong
+        if (FRONT == -1) 
+        {
+            FRONT = 0; // 2.a
+            FEAR = 0; // 2.b
+        }
+        else
+        {
